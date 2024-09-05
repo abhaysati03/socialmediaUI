@@ -1,0 +1,349 @@
+*{
+ margin:0%;
+ padding:0%; 
+ box-sizing: border-box; 
+}
+
+html,body{
+ height: 100%;
+ width: 100%;
+}
+header{
+    height: 100%;
+    /* background-color: aqua; */
+} 
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    /* justify-content: space-around; */
+    border-bottom: 1px solid black;
+    box-shadow: 5px 10px 8px #888888;
+}
+#nav h1{
+    padding: 15px;
+}
+#nav img{
+    width: 70px;
+    margin-top: -15px;
+}
+
+#content{
+    /* height: 100vh; */
+    display: flex;
+}
+.ri-home-3-fill{
+    margin-left: 950px;
+}
+#section{
+    /* background-color: antiquewhite; */
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 15px;
+    height: 52%;
+    width: 32vh;
+    border: 2px solid black;
+    /* border-radius: 10%; */
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#myprofile h1{
+    text-align: center;
+}
+#myprofile img{
+    height: 188px;
+    padding-left: -5px;
+}
+.ri-edit-2-fill{
+    margin-left: -5px;
+    /* background-color: rgb(131, 251, 79); */
+    font-size: 16px;
+}
+.ri-home-4-fill{
+    margin-left: -5px;
+    /* background-color: rgb(131, 251, 79); */
+    font-size: 16px;
+}
+.ri-cake-2-fill{
+    margin-left: -5px;
+    /* background-color: rgb(131, 251, 79); */
+    font-size: 16px;
+}
+#picon{
+    justify-content: first baseline;
+}
+
+#post{
+    /* background-color: antiquewhite; */
+    height: 30vh;
+    width: 130vh;
+    margin-left: 25px;    margin-top: 2%;
+    margin-left: 2%;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 1%;
+    box-shadow: 5px 10px 8px #888888;
+}
+#postcontent{
+    width: 129.6vh;
+    height: 20vh;
+    /* background-color: rgb(244, 179, 179); */
+    margin-left: -15px;
+}
+#postcontent h2{
+    padding-left: 25px;
+    font-weight: lighter;
+}
+
+input{
+    width: 95vh;
+    height: 40px;
+    font-size: x-large;
+    padding-left: 10px;
+    margin-left: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 7px 8px 5px 2px #888888;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+} 
+button{
+    margin-left: 35px;
+    padding: 15px;
+    padding-bottom: 9.6px;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    padding-top: 9px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    border: 1px solid rgb(0, 0, 0);   
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    box-shadow: -5px -5px 4px #888888;
+}
+
+#posticon{
+    display: flex;
+    height: 7vh;
+    width: 127.4vh;
+    /* background-color: cadetblue; */
+}
+.ri-vidicon-2-fill{
+    margin-left: 40px;
+    /* background-color: rgb(255, 252, 159); */
+    font-size: xx-large;
+    color: rgb(215, 0, 0);
+    padding-top: 2px;
+}
+#posticon p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+#posticon p:hover{
+    color: rgb(47, 47, 218);
+    cursor: pointer;
+}
+.ri-gallery-fill{
+    margin-left: 90px;
+    /* background-color: rgb(255, 252, 159); */
+    font-size: xx-large;
+    color: rgb(19, 32, 90);
+    padding-top: 2px;
+}
+#posticon p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.ri-emoji-sticker-fill{
+    margin-left: 90px;
+    /* background-color: rgb(64, 62, 11); */
+    font-size: xx-large;
+    color: rgb(197, 200, 30);
+    padding-top: 2px;
+}
+
+#friend{
+    height: 50vh;
+    width: 60vh;
+    /* background-color: antiquewhite;    */
+    margin-left: 25px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px solid black;
+    box-shadow:  5px 10px 8px #888888;
+}
+#friend h1{
+    text-align: center;
+    font-weight: lighter;
+}
+#friend img{
+    height: 220px;
+    padding-left: 22px;
+}
+#requestpending{
+    /* background-color: darkmagenta; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.pending1{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(227, 227, 227); 
+    margin-left: 25px;   
+}
+.pending1 h1 {
+    margin-top: 1px;
+    padding: 5px;
+}
+
+.pending2{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(227, 227, 227);
+    margin-left: 22px;  
+    /* padding-top: 15px;  */
+}
+.pending2 h1 {
+    margin-top: 1px;
+    padding: 5px;
+}
+
+.pending1 i:hover{
+    color: rgb(29, 228, 29);
+    cursor: pointer;
+}
+.pending1 :hover{
+    background-color: rgb(0, 0, 0);
+}
+.pending2 i:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.pending2 :hover{
+    background-color: rgb(0, 0, 0);
+}
+
+#feeds{
+    width: 129.6vh;
+    height: 100vh;
+    /* background-color:rgb(205, 202, 202) ; */
+    margin-left:19%;
+    margin-top: -9%;
+    box-shadow:  5px 10px 8px #888888;
+    border: 2px solid black;
+}
+#feeds img{
+    width: 10vh;
+    height: 10vh;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#feeds p{
+    /* background-color: azure; */
+    margin-left: 90px;
+    margin-top: -70px;
+    font-size: large;
+}
+#feeds h4{
+    margin-left: 2.7vh;
+    font-weight: lighter;
+    font-size: large;
+}
+#imagefeed{
+    height: 65vh;
+    /* background-color: rgb(255, 232, 172); */
+}
+#imagefeed img{
+    width: 129.2vh;
+    height: 65vh;
+    margin-top: -1px;
+    margin-left: -0.2px;
+}
+#reaction{
+    width: 129.2vh;
+    height: 6vh;
+    /* background-color: rgb(255, 189, 224); */
+    display: flex;
+    justify-content: space-around;
+}
+#like{
+    width: 20vh;
+    height: 6vh;
+    /* background-color: rgb(101, 165, 119); */
+}
+#like i{
+    margin-left: 15px;
+    color: black;
+}
+#like i:hover{
+    color: rgb(242, 0, 0);
+    cursor: pointer;
+}
+#like p{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+#comment{
+    width: 26vh;
+    height: 6vh;
+    /* background-color: rgb(101, 151, 165); */
+    margin-left: 50px;
+}
+#comment p{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+#comment i{
+    margin-left: 15px;
+    color:black;
+}
+#comment i:hover{
+    color: rgb(162, 162, 162);
+    cursor: pointer;
+}
+#share{
+    width: 20vh;
+    height: 6vh;
+    /* background-color: rgb(101, 165, 119); */
+    margin-left: 42px;
+}
+#share i{
+    margin-left: 15px;
+    color: black;
+}
+#share i:hover{
+    color: rgb(3, 74, 206);
+    cursor: pointer;
+}
+#share p{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+#whatsapp{
+    width: 25vh;
+    height: 6vh;
+    /* background-color: rgb(101, 165, 119); */
+    margin-left: 42px;
+}
+#whatsapp i{
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+}
+#whatsapp i:hover{
+    color: rgb(0, 153, 87);
+    cursor: pointer;
+}
+#whatsapp p{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: x-large;
+}
